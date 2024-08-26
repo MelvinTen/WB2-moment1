@@ -44,7 +44,7 @@
     $points = 0;
     $ansOne = $_POST['qOne'];
     $ansTwo = $_POST['qTwo'];
-    $ansThree $_POST['qThree'];
+    $ansThree = $_POST['qThree'];
     $ansFour = $_POST['qFour'];
 
     if($ansOne == 'php')
