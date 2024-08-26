@@ -62,7 +62,7 @@
         <input type="radio" name="qFour" value="1434">1434<br><br>
     </label>
     <input type="submit" value="Skicka" />
-</form>
+</form> 
 </body>
 
 </html>
