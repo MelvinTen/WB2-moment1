@@ -37,5 +37,28 @@
     echo "<p>" . "Summan är " . $sum . "</p>";
     ?>
 </body>
+
+<body>
+<h1>Resultat</h1>
+<?php 
+    $points = 0;
+    $ansOne = $_POST['qOne'];
+    $ansTwo = $_POST['qTwo'];
+    $ansThree $_POST['qThree'];
+    $ansFour = $_POST['qFour'];
+
+    if($ansOne == 'php')
+        $points++;
+    if($ansTwo == 'sve')
+        $points++;
+    if($ansThree == 'te3')
+        $points++;
+    if($ansFour == '1560')
+        $points++;
+
+    echo '<strong>Du fick '.$points.' av 4 möjliga</strong>';
+?>
+</body>
+
 </html>
 
