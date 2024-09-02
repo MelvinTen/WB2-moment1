@@ -16,6 +16,7 @@
 </body>
 
 <body>
+    <h1> Melvin</h1>
     <h1>Namn och ålder</h1>
     <?php
     $namn = $_POST['namn'];
