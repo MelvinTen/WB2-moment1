@@ -56,7 +56,7 @@
     if($ansFour == '1560')
         $points++;
 
-    echo '<strong>Du fick '.$points.' av 4 möjliga</strong>';
+    echo '<strong>Du fick '.$points.' av 4 möjliga! Grattis!</strong>';
 ?>
 </body>
 
